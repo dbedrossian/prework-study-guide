@@ -1,17 +1,27 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 20;
 }
 header,
 footer {
     width: 100%;
-    height: 120px;
-    background-color: blue;
-    color: white;
+    height: 150px;
+    background-color: rgb(10, 77, 135);
+    color: rgb(203, 243, 249);
+    padding: 20;
 }
-h1,
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px; 
+}
 h2 {
     text-align: center;
+    color:rgb(18, 64, 104);
+}
+h3 {
+    text-align: center;
+    color:rgb(203, 243, 249);
 }
 img {
     display: block;
@@ -31,6 +41,6 @@ p {
 .card {
     width: 80%;
     margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    border: 5px solid rgb(10, 77, 135);
+    box-shadow: 5px 10px #d2edef;
   }
